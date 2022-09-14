@@ -1,0 +1,30 @@
+.suggestion {
+  max-height: 300px;
+  background: var(--white);
+  border: 0;
+  border-radius: var(--border-radius);
+  padding: 1rem;
+  margin-top: 0.2rem;
+  overflow: auto;
+}
+
+.suggestion ul {
+  list-style-type: none;
+}
+
+.suggestion li {
+  color: var(--gray);
+  padding: 1rem;
+}
+
+.suggestion li:hover {
+  background-color: var(--secondary);
+  border-radius: var(--border-radius);
+  color: var(--white);
+}
+
+.no-suggestion {
+  display: flex;
+  justify-content: center;
+  color: var(--gray);
+}
