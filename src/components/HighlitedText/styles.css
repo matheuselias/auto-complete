@@ -1,0 +1,12 @@
+.highlited-text {
+  color: inherit;
+}
+
+.highlited-text:hover {
+  color: inherit;
+}
+
+mark {
+  color: var(--primary);
+  background-color: transparent;
+}
