@@ -1,0 +1,20 @@
+.text-field {
+  position: relative;
+}
+
+.text-field input {
+  width: 100%;
+  border-radius: var(--border-radius);
+  font-size: 1.6rem;
+  padding: 0.8rem;
+  border: 0.1rem solid var(--gray);
+  outline: none;
+}
+
+.text-field input:hover {
+  border-color: var(--primary);
+}
+
+.text-field input:focus {
+  border-color: var(--primary);
+}
