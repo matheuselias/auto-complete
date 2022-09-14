@@ -1,0 +1,13 @@
+.auto-complete {
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+}
+
+label {
+  font-size: 2rem;
+  text-align: center;
+  font-weight: bold;
+  color: var(--secondary);
+  margin-bottom: 1rem;
+}
