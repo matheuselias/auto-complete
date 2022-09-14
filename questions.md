@@ -162,12 +162,12 @@ function WithUserInformations(Component) {
 
 10. List a few ways styles can be used with components.
 
-   1- CSS inline.
+    1- CSS inline.
    
-   2- CSS classes.
+    2- CSS classes.
 
-   3- CSS-in-JS.
+    3- CSS-in-JS.
 
 11. How to render an HTML string coming from the server.
 
-   Using `dangerouslySetInnerHTML`.
+    Using `dangerouslySetInnerHTML`.
