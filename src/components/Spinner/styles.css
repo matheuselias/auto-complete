@@ -1,0 +1,31 @@
+.spinner {
+  position: absolute;
+  top: 2rem;
+  right: 0;
+  transform: translateY(-50%);
+  width: 7rem;
+}
+
+@keyframes bouncedelay-animation {
+  0%, 80%, 100% {
+    transform: scale(0);
+  } 40% {
+    transform: scale(1.0);
+  }
+}
+
+.spinner > div {
+  width: 1.5rem;
+  height: 1.5rem;
+  background-color: var(--primary);
+  border-radius: 100%;
+  display: inline-block;
+  animation: bouncedelay-animation 1.4s infinite ease-in-out both;
+}
+.spinner .bounce-1 {
+  animation-delay: -0.32s;
+}
+
+.spinner .bounce-2 {
+  animation-delay: -0.16s;
+}
